@@ -65,6 +65,14 @@ search_button.addEventListener("click", async ()=>{
     }
     })
     
+    const moreInfo = document.querySelectorAll("button")
+    
+    if(moreInfo[1]){
+        moreInfo[1].addEventListener('click',()=>{
+            window.location = `details.html?id=tt2119532`
+        })
+    }
+    
 async function search(query){
         return await fetch(`https://www.omdbapi.com/?apikey=fa3280a0&s=${query}`)
         .then(response=>{
@@ -74,10 +82,3 @@ async function search(query){
         return json 
     })
 }
-
-const moreInfo = document.querySelectorAll("button")
-
-if(moreInfo[1])
-    moreInfo[1].addEventListener('click',()=>{
-        window.location = `details.html?id=tt2119532`
-    })
