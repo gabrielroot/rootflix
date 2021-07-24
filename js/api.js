@@ -1,5 +1,3 @@
-const API_KEY=process
-
 const modal = document.querySelector(".modal")
 const modal_close = document.querySelector(".subheader > i")
 const resultados = document.querySelector(".subheader > h1")
@@ -58,7 +56,7 @@ search_button.addEventListener("click", async ()=>{
                 ul_item.appendChild(lis[i])
                 ids.push(res.imdbID)
                 lis[i].addEventListener('click',function(){
-                    window.location = `/details.html?id=${ids[i]}`
+                    window.location = `details.html?id=${ids[i]}`
                 })
             }    
         }else{
@@ -81,5 +79,5 @@ const moreInfo = document.querySelectorAll("button")
 
 if(moreInfo[1])
     moreInfo[1].addEventListener('click',()=>{
-        window.location = `/details.html?id=tt2119532`
+        window.location = `details.html?id=tt2119532`
     })
