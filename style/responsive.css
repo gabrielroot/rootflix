@@ -1,8 +1,17 @@
-@media screen and (max-width:600px) {
-    header .container{
+@media screen and (max-width:1000px) {
+    header .container, .container{
         flex-direction: column;
     }
     
+    .descricao-box{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container .pesquisa-box{
+        width: 80%;
+    }
+
     header nav{
         margin-top: 10px;
         text-align: center;
