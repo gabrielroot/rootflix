@@ -66,7 +66,7 @@ search_button.addEventListener("click", async ()=>{
     })
     
 async function search(query){
-        return await fetch(`http://www.omdbapi.com/?apikey=fa3280a0&s=${query}`)
+        return await fetch(`https://www.omdbapi.com/?apikey=fa3280a0&s=${query}`)
         .then(response=>{
             return response.json()
     })

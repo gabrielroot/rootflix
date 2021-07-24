@@ -19,7 +19,7 @@ async function updateCard(){
 }
 
 async function search(query){
-        return await fetch(`http://www.omdbapi.com/?apikey=fa3280a0&i=${query}`)
+        return await fetch(`https://www.omdbapi.com/?apikey=fa3280a0&i=${query}`)
         .then(response=>{
             return response.json()
     })
