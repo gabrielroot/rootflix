@@ -13,12 +13,10 @@ async function carrossel(){
         img.className = "box-film"
         divs[i].appendChild(img)
         carrosselEl.appendChild(divs[i])
-        console.log(itemJson.imdbID, i)
         items.push(itemJson.imdbID)
         divs[i].addEventListener('click',()=>{
             window.location = `details.html?id=${items[i]}`
         })
-        console.log(items)
     }
     setupCaroussel()
 }
