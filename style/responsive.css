@@ -29,6 +29,17 @@
     }
 }
 
+@media screen and (max-width:600px) {
+    .item li{
+        height: initial;
+        flex-direction: column;
+    }
+
+    .item .descricao-box{
+        margin-left: initial;
+    }
+}
+
 @media screen and (min-width:1000px) {
     .descricao{
         width: 50%;

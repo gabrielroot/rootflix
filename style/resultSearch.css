@@ -2,6 +2,7 @@
     display: none;
     position: fixed;
     height: 90vh;
+    width: 100vw;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.924);
     overflow-y: scroll;
