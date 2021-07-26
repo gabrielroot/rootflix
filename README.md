@@ -7,7 +7,7 @@ Além da interface, foi implementada a funcionalidade de consultas na omdbapi.co
 
 ## Tecnologias
 
-A proposta foi de fazer a implementação apenas com tecnologias base
+A proposta foi de realizar a implementação apenas com tecnologias base
 -  HTML
 - CSS
 - JAVASCRIPT
