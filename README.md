@@ -16,7 +16,7 @@ A proposta foi de realizar a implementação apenas com tecnologias base
 ## Capturas
 
 ![Captura de tela](Captura.png?raw=true "Title")
-![Captura de tela](Captura2.png?raw=true "Title")
+![Captura de tela](Captura1.png?raw=true "Title")
 
 ## Licença
 
